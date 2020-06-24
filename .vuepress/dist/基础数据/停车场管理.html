@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>停车场信息新增 | 数据聚合平台对外开放接口文档</title>
+    <meta name="description" content="数据聚合平台对外开放接口文档">
+    
+    
+    <link rel="preload" href="/dita-sys-docs/assets/css/0.styles.e97d5239.css" as="style"><link rel="preload" href="/dita-sys-docs/assets/js/app.25880c35.js" as="script"><link rel="preload" href="/dita-sys-docs/assets/js/5.dacce9f7.js" as="script"><link rel="prefetch" href="/dita-sys-docs/assets/js/10.99e7fedc.js"><link rel="prefetch" href="/dita-sys-docs/assets/js/11.ecc40e63.js"><link rel="prefetch" href="/dita-sys-docs/assets/js/2.6d6ce43f.js"><link rel="prefetch" href="/dita-sys-docs/assets/js/3.e178e437.js"><link rel="prefetch" href="/dita-sys-docs/assets/js/4.6f42ff71.js"><link rel="prefetch" href="/dita-sys-docs/assets/js/6.69e6aca6.js"><link rel="prefetch" href="/dita-sys-docs/assets/js/7.b494ecd1.js"><link rel="prefetch" href="/dita-sys-docs/assets/js/8.0a9c1290.js"><link rel="prefetch" href="/dita-sys-docs/assets/js/9.c0a5f328.js">
+    <link rel="stylesheet" href="/dita-sys-docs/assets/css/0.styles.e97d5239.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/dita-sys-docs/" class="home-link router-link-active"><!----> <span class="site-name">数据聚合平台对外开放接口文档</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><!---->  <ul class="sidebar-links"><li><a href="/dita-sys-docs/" class="sidebar-link">主页</a></li><li><div class="sidebar-group"><p class="sidebar-heading open"><span>基础数据</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/dita-sys-docs/基础数据/小区管理.html" class="sidebar-link">小区管理</a></li><li><a href="/dita-sys-docs/基础数据/停车场管理.html" class="active sidebar-link">停车场管理</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/dita-sys-docs/基础数据/停车场管理.html#停车场信息新增" class="sidebar-link">停车场信息新增</a></li><li class="sidebar-sub-header"><a href="/dita-sys-docs/基础数据/停车场管理.html#停车场信息更新" class="sidebar-link">停车场信息更新</a></li><li class="sidebar-sub-header"><a href="/dita-sys-docs/基础数据/停车场管理.html#停车场信息查询" class="sidebar-link">停车场信息查询</a></li><li class="sidebar-sub-header"><a href="/dita-sys-docs/基础数据/停车场管理.html#停车场信息列表查询" class="sidebar-link">停车场信息列表查询</a></li><li class="sidebar-sub-header"><a href="/dita-sys-docs/基础数据/停车场管理.html#停车场信息删除" class="sidebar-link">停车场信息删除</a></li><li class="sidebar-sub-header"><a href="/dita-sys-docs/基础数据/停车场管理.html#停车场信息批量删除" class="sidebar-link">停车场信息批量删除</a></li></ul></li></ul></div></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>数据上报</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/dita-sys-docs/数据上报/人员出入记录.html" class="sidebar-link">人员出入记录</a></li><li><a href="/dita-sys-docs/数据上报/车辆出入记录.html" class="sidebar-link">车辆出入记录</a></li></ul></div></li><li><a href="/dita-sys-docs/通用字典.html" class="sidebar-link">通用字典</a></li></ul> </div> <div class="page"> <div class="content"><h2 id="停车场信息新增"><a href="#停车场信息新增" aria-hidden="true" class="header-anchor">#</a> 停车场信息新增</h2> <h3 id="请求url"><a href="#请求url" aria-hidden="true" class="header-anchor">#</a> 请求URL</h3> <div class="language- extra-class"><pre class="language-text"><code>http://[server]/parking/add
+</code></pre></div><h3 id="请求头部"><a href="#请求头部" aria-hidden="true" class="header-anchor">#</a> 请求头部</h3> <div class="language- extra-class"><pre class="language-text"><code>无
+</code></pre></div><h3 id="请求方式"><a href="#请求方式" aria-hidden="true" class="header-anchor">#</a> 请求方式</h3> <div class="language- extra-class"><pre class="language-text"><code>POST 
+</code></pre></div><h3 id="请求体类型"><a href="#请求体类型" aria-hidden="true" class="header-anchor">#</a> 请求体类型</h3> <div class="language- extra-class"><pre class="language-text"><code># 表单
+Content-Type:application/x-www-form-urlencoded
+</code></pre></div><h3 id="请求参数"><a href="#请求参数" aria-hidden="true" class="header-anchor">#</a> 请求参数</h3> <table><thead><tr><th>参数名称</th> <th>参数值示例</th> <th>类型</th> <th>是否可空</th> <th>描述</th></tr></thead> <tbody><tr><td>name</td> <td>流花停车场</td> <td>String</td> <td>否</td> <td>停车场名称</td></tr> <tr><td>address</td> <td>101</td> <td>String</td> <td>是</td> <td>停车场地址</td></tr> <tr><td>longitude</td> <td>101</td> <td>String</td> <td>是</td> <td>停车场位置经度</td></tr> <tr><td>latitude</td> <td>101</td> <td>String</td> <td>是</td> <td>停车场位置纬度</td></tr></tbody></table> <h3 id="返回结果"><a href="#返回结果" aria-hidden="true" class="header-anchor">#</a> 返回结果</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 成功返回</span>
+<span class="token punctuation">{</span>
+  <span class="token string">&quot;status&quot;</span><span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;desc&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;操作成功！&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;time&quot;</span><span class="token punctuation">:</span> <span class="token number">1552618330938</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;8ca9539e7d7f4b2b9c3458af51a2e989&quot;</span> <span class="token comment">//停车场唯一标识</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="停车场信息更新"><a href="#停车场信息更新" aria-hidden="true" class="header-anchor">#</a> 停车场信息更新</h2> <h3 id="请求url-2"><a href="#请求url-2" aria-hidden="true" class="header-anchor">#</a> 请求URL</h3> <div class="language- extra-class"><pre class="language-text"><code>http://[server]/parking/update
+</code></pre></div><h3 id="请求头部-2"><a href="#请求头部-2" aria-hidden="true" class="header-anchor">#</a> 请求头部</h3> <div class="language- extra-class"><pre class="language-text"><code>无
+</code></pre></div><h3 id="请求方式-2"><a href="#请求方式-2" aria-hidden="true" class="header-anchor">#</a> 请求方式</h3> <div class="language- extra-class"><pre class="language-text"><code>POST 
+</code></pre></div><h3 id="请求体类型-2"><a href="#请求体类型-2" aria-hidden="true" class="header-anchor">#</a> 请求体类型</h3> <div class="language- extra-class"><pre class="language-text"><code># 表单
+Content-Type:application/x-www-form-urlencoded
+</code></pre></div><h3 id="请求参数-2"><a href="#请求参数-2" aria-hidden="true" class="header-anchor">#</a> 请求参数</h3> <table><thead><tr><th>参数名称</th> <th>参数值示例</th> <th>类型</th> <th>是否可空</th> <th>描述</th></tr></thead> <tbody><tr><td>code</td> <td>8ca9539e7d7f4b2b9c3458af51a2e989</td> <td>String</td> <td>否</td> <td>唯一标识</td></tr> <tr><td>name</td> <td>流花停车场</td> <td>String</td> <td>否</td> <td>停车场名称</td></tr> <tr><td>address</td> <td>101</td> <td>String</td> <td>是</td> <td>停车场地址</td></tr> <tr><td>longitude</td> <td>101</td> <td>String</td> <td>是</td> <td>停车场位置经度</td></tr> <tr><td>latitude</td> <td>101</td> <td>String</td> <td>是</td> <td>停车场位置纬度</td></tr></tbody></table> <h3 id="返回结果-2"><a href="#返回结果-2" aria-hidden="true" class="header-anchor">#</a> 返回结果</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 成功返回</span>
+<span class="token punctuation">{</span>
+  <span class="token string">&quot;status&quot;</span><span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;desc&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;操作成功！&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;time&quot;</span><span class="token punctuation">:</span> <span class="token number">1552618330938</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;8ca9539e7d7f4b2b9c3458af51a2e989&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="停车场信息查询"><a href="#停车场信息查询" aria-hidden="true" class="header-anchor">#</a> 停车场信息查询</h2> <h3 id="请求url-3"><a href="#请求url-3" aria-hidden="true" class="header-anchor">#</a> 请求URL</h3> <div class="language- extra-class"><pre class="language-text"><code>http://[server]/parking/detail
+</code></pre></div><h3 id="请求头部-3"><a href="#请求头部-3" aria-hidden="true" class="header-anchor">#</a> 请求头部</h3> <div class="language- extra-class"><pre class="language-text"><code>无
+</code></pre></div><h3 id="请求方式-3"><a href="#请求方式-3" aria-hidden="true" class="header-anchor">#</a> 请求方式</h3> <div class="language- extra-class"><pre class="language-text"><code>POST 
+</code></pre></div><h3 id="请求体类型-3"><a href="#请求体类型-3" aria-hidden="true" class="header-anchor">#</a> 请求体类型</h3> <div class="language- extra-class"><pre class="language-text"><code># 表单
+Content-Type:application/x-www-form-urlencoded
+</code></pre></div><h3 id="请求参数-3"><a href="#请求参数-3" aria-hidden="true" class="header-anchor">#</a> 请求参数</h3> <table><thead><tr><th>参数名称</th> <th>参数值示例</th> <th>类型</th> <th>是否可空</th> <th>描述</th></tr></thead> <tbody><tr><td>code</td> <td>8ca9539e7d7f4b2b9c3458af51a2e989</td> <td>String</td> <td>是</td> <td>记录标识</td></tr></tbody></table> <h3 id="返回结果-3"><a href="#返回结果-3" aria-hidden="true" class="header-anchor">#</a> 返回结果</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 成功返回</span>
+<span class="token punctuation">{</span>
+	<span class="token string">&quot;status&quot;</span><span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;desc&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;操作成功！&quot;</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;time&quot;</span><span class="token punctuation">:</span> <span class="token number">1572158584230</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;parking&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+			<span class="token string">&quot;number&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;100001&quot;</span><span class="token punctuation">,</span> <span class="token comment">//停车场编号</span>
+			<span class="token string">&quot;address&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;12312&quot;</span><span class="token punctuation">,</span> <span class="token comment">//停车场地址</span>
+			<span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;ec8cf37b25b043b4b5202f52e1f520d0&quot;</span><span class="token punctuation">,</span> <span class="token comment">//唯一标识</span>
+			<span class="token string">&quot;createTime&quot;</span><span class="token punctuation">:</span> <span class="token number">1571561937828</span><span class="token punctuation">,</span> <span class="token comment">//记录创建时间</span>
+			<span class="token string">&quot;latitude&quot;</span><span class="token punctuation">:</span> <span class="token number">213222.0</span><span class="token punctuation">,</span> <span class="token comment">//停车场位置经度</span>
+			<span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;123213123&quot;</span><span class="token punctuation">,</span> <span class="token comment">//停车场名称</span>
+			<span class="token string">&quot;updateTime&quot;</span><span class="token punctuation">:</span> <span class="token number">1571561943688</span><span class="token punctuation">,</span> <span class="token comment">//记录最后修改时间</span>
+			<span class="token string">&quot;appCode&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;9357cf831f7b410db354b7b2dd293293&quot;</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;longitude&quot;</span><span class="token punctuation">:</span> <span class="token number">321322.0</span> <span class="token comment">//停车场位置纬度</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="停车场信息列表查询"><a href="#停车场信息列表查询" aria-hidden="true" class="header-anchor">#</a> 停车场信息列表查询</h2> <h3 id="请求url-4"><a href="#请求url-4" aria-hidden="true" class="header-anchor">#</a> 请求URL</h3> <div class="language- extra-class"><pre class="language-text"><code>http://[server]/parking/list
+</code></pre></div><h3 id="请求头部-4"><a href="#请求头部-4" aria-hidden="true" class="header-anchor">#</a> 请求头部</h3> <div class="language- extra-class"><pre class="language-text"><code>无
+</code></pre></div><h3 id="请求方式-4"><a href="#请求方式-4" aria-hidden="true" class="header-anchor">#</a> 请求方式</h3> <div class="language- extra-class"><pre class="language-text"><code>POST 
+</code></pre></div><h3 id="请求体类型-4"><a href="#请求体类型-4" aria-hidden="true" class="header-anchor">#</a> 请求体类型</h3> <div class="language- extra-class"><pre class="language-text"><code># 表单
+Content-Type:application/x-www-form-urlencoded
+</code></pre></div><h3 id="请求参数-4"><a href="#请求参数-4" aria-hidden="true" class="header-anchor">#</a> 请求参数</h3> <table><thead><tr><th>参数名称</th> <th>参数值示例</th> <th>类型</th> <th>是否可空</th> <th>描述</th></tr></thead> <tbody><tr><td>code</td> <td>8ca9539e7d7f4b2b9c3458af51a2e989</td> <td>String</td> <td>是</td> <td>记录标识</td></tr></tbody></table> <h3 id="返回结果-4"><a href="#返回结果-4" aria-hidden="true" class="header-anchor">#</a> 返回结果</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 成功返回</span>
+<span class="token punctuation">{</span>
+	<span class="token string">&quot;status&quot;</span><span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;desc&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;操作成功！&quot;</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;time&quot;</span><span class="token punctuation">:</span> <span class="token number">1572158689745</span><span class="token punctuation">,</span>
+	<span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+		<span class="token string">&quot;pager&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token comment">//分页信息</span>
+			<span class="token string">&quot;pageIndex&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;pageSize&quot;</span><span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;itemCount&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;btnNum&quot;</span><span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;onPage&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;btnList&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;pageCount&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;items&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;first&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;beginIndex&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;last&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token string">&quot;parkings&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+			<span class="token string">&quot;number&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;100001&quot;</span><span class="token punctuation">,</span> <span class="token comment">//停车场编号</span>
+			<span class="token string">&quot;address&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;12312&quot;</span><span class="token punctuation">,</span> <span class="token comment">//停车场地址</span>
+			<span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;ec8cf37b25b043b4b5202f52e1f520d0&quot;</span><span class="token punctuation">,</span> <span class="token comment">//唯一标识</span>
+			<span class="token string">&quot;createTime&quot;</span><span class="token punctuation">:</span> <span class="token number">1571561937828</span><span class="token punctuation">,</span> <span class="token comment">//记录创建时间</span>
+			<span class="token string">&quot;latitude&quot;</span><span class="token punctuation">:</span> <span class="token number">213222.0</span><span class="token punctuation">,</span> <span class="token comment">//停车场位置经度</span>
+			<span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;123213123&quot;</span><span class="token punctuation">,</span> <span class="token comment">//停车场名称</span>
+			<span class="token string">&quot;updateTime&quot;</span><span class="token punctuation">:</span> <span class="token number">1571561943688</span><span class="token punctuation">,</span> <span class="token comment">//记录最后修改时间</span>
+			<span class="token string">&quot;appCode&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;9357cf831f7b410db354b7b2dd293293&quot;</span><span class="token punctuation">,</span>
+			<span class="token string">&quot;longitude&quot;</span><span class="token punctuation">:</span> <span class="token number">321322.0</span> <span class="token comment">//停车场位置纬度</span>
+		<span class="token punctuation">}</span><span class="token punctuation">]</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="停车场信息删除"><a href="#停车场信息删除" aria-hidden="true" class="header-anchor">#</a> 停车场信息删除</h2> <h3 id="请求url-5"><a href="#请求url-5" aria-hidden="true" class="header-anchor">#</a> 请求URL</h3> <div class="language- extra-class"><pre class="language-text"><code>http://[server]/parking/delete
+</code></pre></div><h3 id="请求头部-5"><a href="#请求头部-5" aria-hidden="true" class="header-anchor">#</a> 请求头部</h3> <div class="language- extra-class"><pre class="language-text"><code>无
+</code></pre></div><h3 id="请求方式-5"><a href="#请求方式-5" aria-hidden="true" class="header-anchor">#</a> 请求方式</h3> <div class="language- extra-class"><pre class="language-text"><code>POST 
+</code></pre></div><h3 id="请求体类型-5"><a href="#请求体类型-5" aria-hidden="true" class="header-anchor">#</a> 请求体类型</h3> <div class="language- extra-class"><pre class="language-text"><code># 表单
+Content-Type:application/x-www-form-urlencoded
+</code></pre></div><h3 id="请求参数-5"><a href="#请求参数-5" aria-hidden="true" class="header-anchor">#</a> 请求参数</h3> <table><thead><tr><th>参数名称</th> <th>参数值示例</th> <th>类型</th> <th>是否可空</th> <th>描述</th></tr></thead> <tbody><tr><td>code</td> <td>8ca9539e7d7f4b2b9c3458af51a2e989</td> <td>String</td> <td>是</td> <td>记录标识</td></tr></tbody></table> <h3 id="返回结果-5"><a href="#返回结果-5" aria-hidden="true" class="header-anchor">#</a> 返回结果</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 成功返回</span>
+
+  <span class="token string">&quot;status&quot;</span><span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;desc&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;操作成功！&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;time&quot;</span><span class="token punctuation">:</span> <span class="token number">1552619085537</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="停车场信息批量删除"><a href="#停车场信息批量删除" aria-hidden="true" class="header-anchor">#</a> 停车场信息批量删除</h2> <h3 id="请求url-6"><a href="#请求url-6" aria-hidden="true" class="header-anchor">#</a> 请求URL</h3> <div class="language- extra-class"><pre class="language-text"><code>http://[server]/parking/batchDelete
+</code></pre></div><h3 id="请求头部-6"><a href="#请求头部-6" aria-hidden="true" class="header-anchor">#</a> 请求头部</h3> <div class="language- extra-class"><pre class="language-text"><code>无
+</code></pre></div><h3 id="请求方式-6"><a href="#请求方式-6" aria-hidden="true" class="header-anchor">#</a> 请求方式</h3> <div class="language- extra-class"><pre class="language-text"><code>POST 
+</code></pre></div><h3 id="请求体类型-6"><a href="#请求体类型-6" aria-hidden="true" class="header-anchor">#</a> 请求体类型</h3> <div class="language- extra-class"><pre class="language-text"><code># 表单
+Content-Type:application/json
+</code></pre></div><h3 id="请求参数-6"><a href="#请求参数-6" aria-hidden="true" class="header-anchor">#</a> 请求参数</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code>    <span class="token punctuation">[</span><span class="token string">&quot;8ca9539e7d7f4b2b9c3458af51a2e989&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;fd95278c936d47b2b758ce00bc42b98c&quot;</span><span class="token punctuation">]</span>
+</code></pre></div><h3 id="返回结果-6"><a href="#返回结果-6" aria-hidden="true" class="header-anchor">#</a> 返回结果</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 成功返回</span>
+
+  <span class="token string">&quot;status&quot;</span><span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;desc&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;操作成功！&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;time&quot;</span><span class="token punctuation">:</span> <span class="token number">1552619085537</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <div class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">10/27/2019, 3:09:14 PM</span></div></div> <!----> </div> <!----></div></div>
+    <script src="/dita-sys-docs/assets/js/app.25880c35.js" defer></script><script src="/dita-sys-docs/assets/js/5.dacce9f7.js" defer></script>
+  </body>
+</html>
