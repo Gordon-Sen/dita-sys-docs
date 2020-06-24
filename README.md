@@ -17,8 +17,7 @@ sidebarDepth: 0
 
 地址名称| url
 ---|---
-本地 | http://127.0.0.1:8080
-测试环境 | http://wetime520.com:6006/
+测试环境 | http://XXX.XXX.XXX.XXX/
 
 #### 请求方式
 
